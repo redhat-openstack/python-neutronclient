@@ -112,7 +112,7 @@ class CreatePort(CreateCommand):
             action='append',
             help='desired IP for this port: '
             'subnet_id=<name_or_id>,ip_address=<ip>, '
-            'can be repeated')
+            '(This option can be repeated.)')
         parser.add_argument(
             '--fixed_ip',
             action='append',
