@@ -16,7 +16,4 @@
 # vim: tabstop=4 shiftwidth=4 softtabstop=4
 # @author: Carl Baldwin, Hewlett-Packard
 
-import pbr.version
-
-
-__version__ = pbr.version.VersionInfo('python-neutronclient').version_string()
+__version__ = "REDHATNEUTRONCLIENTVERSION"
